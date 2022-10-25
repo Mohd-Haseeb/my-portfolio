@@ -1,0 +1,130 @@
+
+/* Footer Section */
+.container-footer{
+    padding: 2rem 6rem;
+    background-color: #242B2E;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    
+}
+
+
+.vertical {
+    background-color: #82c1bb;
+    width: 2px;
+    height: 10rem;
+    padding: 0;
+    margin: 0;
+}
+.connect-text{
+    text-align: center;
+}
+
+.frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+button {
+margin: 0 20px;
+outline: none;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    padding: 0px 25px;
+    border: 2px solid #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+.btn {
+    background: #000;
+   color: #fff;
+   z-index: 1;
+ }
+ .btn:after {
+   position: absolute;
+   content: "";
+   width: 0;
+   height: 100%;
+   top: 0;
+   left: 0;
+   direction: rtl;
+   z-index: -1;
+   background: #e0e5ec;
+   transition: all 0.3s ease;
+ }
+ .btn:hover {
+   color: #000;
+ }
+ .btn:hover:after {
+   left: auto;
+   right: 0;
+   width: 100%;
+ }
+ .btn:active {
+   top: 2px;
+ }
+
+ /* test social */
+
+.social-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+ .btn-linkedin {
+    background: #0077b5;
+   color: #fff;
+   z-index: 1;
+ }
+ .btn-instagram {
+    background: #bc2a8d;
+   color: #fff;
+   z-index: 1;
+ }
+ .btn-github {
+    background: #171515;
+   color: #fff;
+   z-index: 1;
+ }
+
+ .btn-common:hover {
+    color: #000;
+  }
+
+.btn-common:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+}
+
+.btn-common:active {
+    top: 2px;
+  }
+
+.btn-common:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    background: #e0e5ec;
+    transition: all 0.3s ease;
+}
+ /* end social */
